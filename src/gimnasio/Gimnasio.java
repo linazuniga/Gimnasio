@@ -57,5 +57,18 @@ public class Gimnasio {
     public void setNumeroDeEntrenadores(int numeroDeEntrenadores) {
         this.numeroDeEntrenadores = numeroDeEntrenadores;
     }
+     public void doctores(){
+        this.fisioterapeutas += 10;
+    }
+    
+    public void doctores(int nuevosFisioterapeutas){
+        if(nuevosFisioterapeutas<=this.fisioterapeutas){
+            System.out.println("Los nuevos doctores");
+        }else{
+            this.fisioterapeutas = nuevosFisioterapeutas;
+            System.out.println("Nuevos fisioterapeutas: " + String.valueOf(nuevosFisioterapeutas) + " Salud");            
+        }
+        
+
 
 }
