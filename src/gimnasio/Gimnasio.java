@@ -63,7 +63,7 @@ public class Gimnasio {
     
     public void doctores(int nuevosFisioterapeutas){
         if(nuevosFisioterapeutas<=this.fisioterapeutas){
-            System.out.println("Los nuevos doctores");
+            System.out.println("Mas numeros de lesionados");
         }else{
             this.fisioterapeutas = nuevosFisioterapeutas;
             System.out.println("Nuevos fisioterapeutas: " + String.valueOf(nuevosFisioterapeutas) + " Salud");            
